@@ -1,0 +1,9 @@
+1. Given an array with some integer type values. Write a python script to sort Array values.
+
+2. Given a list of heterogeneous elements. Write a py script to remove all non-int values from the list.
+
+3. Write a py script to calculate average of elements of a list.
+
+4. Write a py script to create a list of first N prime numbers.
+
+5. Write a py script to create a list of first N terms of a fibonacci series.
