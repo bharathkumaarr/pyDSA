@@ -10,9 +10,12 @@ isEmpty
 stack = []
 
 def append_to_stack():
-    x=input("enter the element to append/push to stack: ")
-    stack.append(x)
-    print("your new stack is: ", stack)
+    if len(stack)!=n:
+        x=input("enter the element to append/push to stack: ")
+        stack.append(x)
+        print("your new stack is: ", stack)
+    else:
+        print("stack full!")
 
 def remove_from_stack():
     if not(not stack):
@@ -33,7 +36,7 @@ def isEmpty():
     else:
         print("stack is NOT empty")
 
-        
+n=int(input("enter the lenght limit of the stack: "))
 while True:
     print('''
 enter your choice:
