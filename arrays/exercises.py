@@ -38,3 +38,42 @@ exp[3] = exp[3]-200
 print(exp)
 
 
+heros=['spider man','thor','hulk','iron man','captain america']
+print(heros)
+print(len(heros))
+heros.append('black panther')
+print(heros)
+print(heros.pop())
+print(heros)
+
+heros.insert(heros.index('hulk')+1, 'black panther')
+print(heros)
+
+# heros[heros.index('thor')] = 'doctor strange'
+# heros.remove('hulk')
+# print(heros)
+
+heros[1:3] = ['doctor strange']
+print(heros)
+
+
+
+heros.sort()
+print(heros)
+
+
+max = int(input('enter the max number: '))
+odd_list = []
+
+for i in range(max):
+    if i%2!=0:
+        odd_list.append(i)
+print(odd_list)
+
+
+
+
+
+
+
+
